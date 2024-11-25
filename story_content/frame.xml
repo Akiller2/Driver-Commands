@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000100101" font="Open Sans" controllayout="npnxnanbsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100101" font="Open Sans" controllayout="pxabnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="npxnabnsnfns00000100101" font="Open Sans" controllayout="npxnabnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="npnxnanbnsnfns00000100101" font="Open Sans" controllayout="npnxnanbnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100100" font="Open Sans" controllayout="pxabnsnfns00000100100" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="pnxanbnsnfns00000100101" font="Open Sans" controllayout="pnxanbnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Driver Commands1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000100101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000100101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6gHaypzKZso" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gHaypzKZso.5bJCYD88w4U" displaytext="Drivers Commands" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5jBY0TKvSAU" displaytext="Main Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5luVnAanieh" displaytext="Landing Page" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5pb8VBOJomq" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6nsGMteicog" displaytext="Name the different access levels of the DDU, depending on the ID." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5o1yhDvVhYO" displaytext="Which colours may the icon           on the DDU be and to which severity is each colour related to?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6KQe3SxPn86" displaytext="How can the Train driver isolate the mechanical brakes on any single car in the EMU trainset (in single or multiple units) from the cab?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5qRJC14thwc" displaytext="What happens when the driver has released the dead man knob in operation?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6Uyl47xehj6" displaytext="Select the correct sequence for how the driver establishes cab-to-cab communication." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6JZr7eNbBnr" displaytext="How many positions does a windscreen wiper switch have?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5hVOJu1V4Wk" displaytext="Select two types of pressures displayed on the pressure gauge on the driver’s desk with the colour of their needles." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5VciCE4CPsF" displaytext="Select two types of radios which are found in the driving cab." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6AFhvx0686d" displaytext="Name the different access levels of the DDU, depending on the ID." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6UiNyF7w6eI" displaytext="What is the purpose of backup state on the EMU trains?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6IEFo1YLMB1" displaytext="What is the “Alarm module” used for? " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6ULxwAPLMmn" displaytext="What happens physically when the “Emergency pantograph down” pushbutton is pressed?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.65j0vdYcTam" displaytext="When logged in on the DDU as a driver, which functions are not duplicated by a pushbutton or switch on the driver’s desk?                                                                                                             " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5q43nnS5Q8z" displaytext="In which driving mode will the selective pantograph operation be available to the driver on the command screen on the DDU?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6IjSOvNROgU" displaytext="In which circumstances would the driver be expected to use the selective pantograph operation when operating the train?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5ZPhbpqm2M0" displaytext="The HVAC Demister assists the electric Windscreen Demister to clear the windscreen quickly." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6Hp53y3nCr5" displaytext="Which is more efficient between the HVAC demister function and electric windscreen demister? " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5yP6UtMyYGF" displaytext="Arrange the following items according to the conditions that must be met to place the train in standby mode." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6MJXRBO4E1W" displaytext="LEARNING OBJECTIVES" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5po5OGIMfAi" displaytext="INTRODUCTION" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6kdUnPkt6jh" displaytext="Completed m 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5omnfJTX0Go" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6LL8rwoz34J" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5uZluj5vPoh" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6itoLm28qFC" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6NHHBQI9sqA" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.67oaJumsp5S" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5mVyNXx2Qq5" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6c5SOIYpXVg" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5e26qBh5gAr" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5pI2Rb9SMov" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.65tr7TJDUWN" displaytext="DRIVERS COMMANDS" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6gVPyEfM1BF" displaytext="Low Voltage (LV) 1 Cubicle Switch Panel" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5XnaXb0gxMp" displaytext="Commands on LV1 electrical cubicle – top row" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.66UWgIbFp5H" displaytext="Commands on LV1 electrical cubicle – top row" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6YtRsJjuMbp" displaytext="Commands on LV1 electrical cubicle – top row" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6GuWNuJWtWp" displaytext="DDU and HMI" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5otFZysk24U" displaytext="Starting and Identification" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5rc1AJpAha0" displaytext="Information Top bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.64TJ7NZicvr" displaytext="Information Top bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.640xnjwQ57x" displaytext="Warning Top Bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6rOwbPZKFhW" displaytext="Warning Top Bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6g3AqdAS9EZ" displaytext="Warning Top Bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5uu3p9kHWGO" displaytext="Train Itinerary area" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6YmKFgTmLf6" displaytext="Train Itinerary area" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5d1YAWMlDzt" displaytext="2.3.2.8	Navigation bar" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5ZKo0jyQ2eZ" displaytext="Train Status Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6LkIlSqU1r7" displaytext="Door Status Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5a0MxYDZEGK" displaytext="Command Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6pnrIQhIQlp" displaytext="Selective pantograph operation " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6CBlW9bL6Rw" displaytext="Leading only button response process flow " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5h7uEvOzlPN" displaytext="Command screen Cab HVAC Demister" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6jve068jA08" displaytext="Command screen Cab HVAC Demister" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5imfG8YiOAn" displaytext="Command screen Cab HVAC Demister" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5zjJPDBJf1S" displaytext="CCTV Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6QUSSHa6uX6" displaytext="Train Number Select Screen and Pre-recorded Messages" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5xeveaBaPGE" displaytext=" Event List Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5gp5KMQSLgY" displaytext=" Event List Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6k5YxGxXyLc" displaytext="Shutdown Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5aSZkIWkSNo" displaytext="ERTMS Display" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6GFp5n2wHQK" displaytext="ERTMS Display" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5pBM1SADEjI" displaytext="Completed m 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5Wo9IwGMWqT" displaytext="ERTMS Display" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6MDJJgk3R8E" displaytext="Completed m 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6oLpyRvQo36" displaytext="Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6GnXCvWFNF0" displaytext="Select four different zones on the master controller." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6NW8KQj7wzF" displaytext="If both the Close main circuit breaker pushbutton (22S11) lamp and the Open main circuit breaker pushbutton (22S12) lamp are turned ON, what does it indicate regarding the state of the HSCBs? Mark the correct answer in the box provided." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6O7261gRz8s" displaytext="What can be done with the “Traction isolation” switch?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6ng11JOhQkf" displaytext="Describe the different steps to perform on the DDU before the “Main screen” appears." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6iDbtfs9hur" displaytext="Arrange the following items according to the conditions that must be met to place the train in standby mode." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6qBJEbfL3J7" displaytext="The Alarm module displays a quick view of the train status by means of icons that can be switched on or switched off by the control system." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.61IR2mL8sdz" displaytext="Choose 5 icons displayed on the “Alarm module”." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5c03cxji1BV" displaytext="Where is the Windscreen washer tank filler located?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6N9Iq0l6TSj" displaytext="What happens when the “Emergency brake” pushbutton is pressed?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5lweS863w5u" displaytext="What happens when the driver has released the dead man knob in operation?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5p39m9QkuzJ" displaytext="What does the driver use the “Passenger Emergency Intercom communication” pushbutton for? " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6XQPg5e1f1x" displaytext="How does the driver know when the parking brake has been applied?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6hgDgCWYbS7" displaytext="How do you test if the indicator lamps work on the driver’s desk?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5wBQWeCpqcY" displaytext="What happens when activating the “Decoupling” pushbutton in a Multiple Unit where the units are coupled?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6cvimxlyNfs" displaytext="Is the sunshade electrically or manually controlled?	" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5rlZsqcPAen" displaytext="Explain briefly the sequence of operation needed in order to open and close the rear view mirror on the right side." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5xLd43OhN4q" displaytext="Explain when the “Traction converter isolation” switch is used and where it is located." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5eCUhx6gTsr" displaytext="How can the Train driver isolate the mechanical brakes on any single car in the EMU trainset (in single or multiple units) from the cab?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6mfym3PzpvC" displaytext="The “PEA reset” switch can be activated in both cabs." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6na4NWIwWfV" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5iF7OAYo6Aa" displaytext="Name the different access levels of the DDU, depending on the ID." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5qmH9zqQ5fj" displaytext="Which colours may the icon           on the DDU be and to which severity is each colour related to?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5cYfT9gig3V" displaytext="What does the “Command screen” permit you to do?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6TXoq8zjs3g" displaytext="When logged in on the DDU as a driver, which functions are not duplicated by a pushbutton or switch on the driver’s desk?                                                                                                             " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6lUAN5wt9Tu" displaytext="In which driving mode will the selective pantograph operation be available to the driver on the command screen on the DDU?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5gAwGDIv6Jo" displaytext="Name the different driving modes available by using the “Driving mode switch”." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6c2l2hOpzaJ" displaytext="What is the “Alarm module” used for? " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6oIB5JyJqcU" displaytext="What happens when the “Emergency brake” pushbutton is pressed?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5VnPA8XWhi9" displaytext="Which push button does the driver use to answer and to terminate a call with the passenger?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6FqVzvufhhZ" displaytext="The four push buttons without backlight on the driver’s desk typically include:	" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5oS7Q9EBf9k" displaytext="Select three answers: The driver’s cab is activated when the Driver’s master key is inserted into the master controller key lock and turned to the ON position. This action transitions the train from which state to which state?	" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6Hh0AEsb7Hy" displaytext="When do you use the reduced power button?	" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5dG3Td91Ui9" displaytext="What is the maximum permissible speed in Depot driving mode?		" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6AbkBBhQwny" displaytext="The three modes of the cab ventilation control switch typically include:" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6WrVbBPu4Cx" displaytext="Is the sunshade electrically or manually controlled? 	" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6R30iLKZ13J" displaytext="Explain when the “Traction converter isolation” switch is used and where it is located. 		" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5pAY6O4psfh" displaytext="Name the different access levels of the DDU, depending on the ID." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5WGCtuHShdp" displaytext="Which colours may the icon           on the DDU be and to which severity is each colour related to?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6qZcsx0gVQs" displaytext="When logged in on the DDU as a driver, which functions are not duplicated by a pushbutton or switch on the driver’s desk?                                                                                                             " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5VnLrVCxfja" displaytext="In which driving mode will the selective pantograph operation be available to the driver on the command screen on the DDU?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.62ocIIMcjrT" displaytext="In which circumstances would the driver be expected to use the selective pantograph operation when operating the train?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6Dozm2ih14h" displaytext="The HVAC Demister assists the electric Windscreen Demister to clear the windscreen quickly." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5Y4krMM5DA9" displaytext="Which is more efficient between the HVAC demister function and electric windscreen demister? " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6MNM1nlTMvw" displaytext="Arrange the following items according to the conditions that must be met to place the train in standby mode." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6IrGJ7ki0Wy" displaytext="When does the PEI push button flash and when is constantly lit?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6qosXc38PRn" displaytext="Name the different driving modes available by using the “Driving mode switch”." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6c8h1rG2g5V" displaytext="Which pushbuttons must be pressed to feed the EMU trainset with high voltage when the train is in “LV ready state”? Choose two methods)." expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6biBcKi5Prb" displaytext="Which switch is used by the Train driver to change the EMU Trainset from ‘Cab in service’ state (Driver’s master key in the driver’s desk is turned on in one of the cabs) to ‘LV ready’ state? (110V available).          " expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.68FdaP7kLeY" displaytext="How many pushbuttons are dedicated to operate the doors on the left side?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.5Z5RQbzq5qD" displaytext="What does the master controller equipment comprise of?" expand="false" type="slide" />
+            <slidelink slideid="_player.6gHaypzKZso.6Iq6E9yS7dV" displaytext="What happens physically when the “Emergency pantograph down” pushbutton is pressed?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
